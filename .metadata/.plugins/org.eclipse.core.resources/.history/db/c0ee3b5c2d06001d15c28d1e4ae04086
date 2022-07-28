@@ -1,0 +1,58 @@
+package basis_oppgaver;
+
+import javax.swing.JOptionPane;
+
+public class B4 {
+
+	public static void main(String[] args) {
+
+		int t = Integer.parseInt(JOptionPane.showInputDialog("Skriv inn antall dager"));
+		double total = 0;
+		double temp[] = new double[t];
+		
+		double max = temp[0];
+		double min = temp[0];
+		System.out.println("Analyse av temperatur");
+		System.out.println("*********************");
+		System.out.println("Skriv inn temperaturene:");
+
+		for (int i = 1; i < temp.length; i++) {
+			
+			temp[i] = Double.parseDouble(JOptionPane.showInputDialog("Skriv inn verdiene"));
+
+			System.out.println(i + ". dag: " + temp[i]);
+
+			total += temp[i];
+			
+			if(temp[i] > max) {
+				max = temp[i];
+			}if(temp[i] < min) {
+				min = temp[i];
+			}
+
+		}
+		
+		System.out.println("Gjennomsnittstemperaturen var " + total);
+		System.out.println();
+
+	}
+
+//	public static double lesInnTemp(String temperatur) {
+//
+//		double temp = Integer.parseInt(JOptionPane.showInputDialog(temperatur));
+//
+//		double snitt = temp/7;
+//		
+//		return temp;
+//	}
+
+//	public static double regnSnitt(String temp) {
+//		
+//		double temps = lesInnTemp(temp);
+//		
+//		double snitt = temps/ 7;
+//		
+//		return snitt;
+//	}
+
+}

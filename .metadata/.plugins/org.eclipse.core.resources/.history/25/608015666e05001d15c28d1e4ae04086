@@ -1,0 +1,14 @@
+package basis_oppgaver;
+
+import javax.swing.JOptionPane;
+
+public class B1 {
+
+	public static void main(String[] args) {
+
+		
+		double vinkel_i_radianer = (Math.PI*x)/180;
+		
+	}
+
+}

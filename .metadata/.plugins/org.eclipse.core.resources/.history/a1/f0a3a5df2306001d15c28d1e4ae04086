@@ -1,0 +1,27 @@
+package basis_oppgaver;
+
+import javax.swing.*;
+
+public class B2 {
+
+	public static void main(String[] args) {
+
+		String breddeStr = JOptionPane.showInputDialog("Bredde:");
+		int bredde = parseInt(breddeStr);
+
+		String hoydeStr = showInputDialog("Høyde:");
+		int hoyde = parseInt(hoydeStr);
+
+		int a = areal(bredde,hoyde);
+
+		showMessageDialog(null,"Areal: " + a);
+	}
+
+	private static int areal(int bredde, int hoyde) {
+
+		int flateareal = bredde * hoyde;
+
+		return flateareal;
+	}
+	
+}

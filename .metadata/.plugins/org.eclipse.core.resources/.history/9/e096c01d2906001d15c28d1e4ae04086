@@ -1,0 +1,25 @@
+package basis_oppgaver;
+
+import javax.swing.JOptionPane;
+
+public class B4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static int lesInnTemp(String temperatur) {
+
+		int temp = Integer.parseInt(JOptionPane.showInputDialog(temperatur));
+
+		return temp;
+
+	}
+	
+	public static double regnSnitt(String temp) {
+		
+		int snitt = lesInnTemp(temp);
+	}
+
+}

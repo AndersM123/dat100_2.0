@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;dat100&apos; to &apos;basis_oppgaver&apos;&#x0D;&#x0A;- Original project: &apos;Lab uke 2 Uke 35&apos;&#x0D;&#x0A;- Original element: &apos;Lab uke 2 Uke 35/src/dat100&apos;&#x0D;&#x0A;- Renamed element: &apos;Lab uke 2 Uke 35/src/basis_oppgaver&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;dat100&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;dat100" name="basis_oppgaver" qualified="false" references="true" stamp="1656984549284" textual="false" version="1.0"/>
+</session>

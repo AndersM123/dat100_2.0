@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;finnes&apos; in &apos;grunnleggende_oppgaver.G1.finnes(...)&apos; to &apos;funnet&apos;&#x0D;&#x0A;- Original project: &apos;Lab uke 5 uke 38&apos;&#x0D;&#x0A;- Original element: &apos;grunnleggende_oppgaver.G1.finnes(int[], int).finnes&apos;&#x0D;&#x0A;- Renamed element: &apos;finnes&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;finnes&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;grunnleggende_oppgaver{G1.java[G1~finnes~\[I~I@finnes!584!606!592!597!Z!0!false" name="funnet" references="true" stamp="1657856488946" version="1.0"/>
+</session>

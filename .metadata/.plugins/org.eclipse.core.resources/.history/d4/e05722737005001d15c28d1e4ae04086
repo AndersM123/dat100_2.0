@@ -1,0 +1,21 @@
+package basis_oppgaver;
+
+public class B1 {
+
+	public static void main(String[] args) {
+
+		System.out.println("x i grader  x i radianer  sin(x)  cos(x)");
+		System.out.println("----------------------------------------");
+
+		for (int x = 0; x <= 180; x += 15) {
+			double vinkel_i_radianer = ((Math.PI * x) / 180)*100/100;
+			
+			double sin = Math.sin(x);
+			double cos = Math.cos(x);
+			
+System.out.println(vinkel_i_radianer*100/100);
+		}
+		System.out.println("----------------------------------------");
+	}
+
+}

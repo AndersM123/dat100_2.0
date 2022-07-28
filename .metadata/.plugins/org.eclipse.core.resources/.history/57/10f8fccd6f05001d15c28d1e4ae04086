@@ -1,0 +1,21 @@
+package basis_oppgaver;
+
+import javax.swing.JOptionPane;
+
+public class B1 {
+
+	public static void main(String[] args) {
+
+		System.out.println("x i grader  x i radianer  sin(x)  cos(x)");
+		System.out.println("----------------------------------------");
+
+		for (int x = 0; x <= 180; x += 15) {
+			double vinkel_i_radianer = (Math.PI * x) / 180;
+
+			System.out.println(x + "  " + vinkel_i_radianer + "  " + Math.sin(x) + "  " + Math.cos(x));
+
+		}
+		System.out.println("----------------------------------------");
+	}
+
+}
