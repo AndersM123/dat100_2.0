@@ -137,5 +137,5 @@ public class B1 {
 		System.out.println(ledig);
 		return ledig;
 	}
-
+	
 }
