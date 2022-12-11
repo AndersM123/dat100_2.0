@@ -6,17 +6,17 @@ public class O1 {
 
 	public static void main(String[] args) {
 
-		int[] a = { 1, 2, 3, 4, 5 };
+		int[] a = { 1, 2, 3, 4, 5, 4 };
 		int[] b = { 5, 4, 3, 2, 1 };
 		int[] c = { 1, 5, 3, 4, 2 };
 
-		skrivUt(a);
-		tilStreng(a);
-		summer(a);
-		finnesTall(a, 1);
-		posisjonTall(a, 6);
-		erSortert(c);
-		settSammen(b,c);
+//		skrivUt(a);
+//		tilStreng(a);
+//		summer(a);
+//		finnesTall(a, 1);
+//		posisjonTall(a, 3);
+		erSortert(a);
+//		settSammen(b, c);
 	}
 
 	public static void skrivUt(int[] tabell) {
@@ -107,7 +107,8 @@ public class O1 {
 	public static boolean erSortert(int[] tabell) {
 
 		boolean større = false;
-
+		int i = 0;
+		while(større == false && )
 		for (int i = 0; i < tabell.length - 1; i++) {
 			if (tabell[i] <= tabell[i + 1]) {
 				større = true;
@@ -131,7 +132,7 @@ public class O1 {
 			spleisTab[pos] = x;
 			pos++;
 		}
-		for(int x : tabell2) {
+		for (int x : tabell2) {
 			spleisTab[pos] = x;
 			pos++;
 		}

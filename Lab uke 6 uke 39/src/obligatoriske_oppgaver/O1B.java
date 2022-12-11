@@ -11,18 +11,18 @@ public class O1B {
 				{ 4, 5, 6 }, // rad 1
 				{ 7, 8, 9 }, // rad
 		};
-//		skrivUtv1(matrise);
+		skrivUtv1(matrise);
 //		tilStreng(matrise);
 //		skaler(2, matrise);
 //		erLik(matrise, matrise2);
-		speile(matrise);
+//		speile(matrise);
 
 	}
 
 	public static void skrivUtv1(int[][] matrise) {
 		for (int[] i : matrise) {
 			for (int j : i) {
-				System.out.println(" " + j);
+				System.out.print(j + " ");
 			}
 		}
 	}
